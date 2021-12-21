@@ -1,0 +1,84 @@
+body{
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header__title{
+    text-align: center;
+}
+.container{
+    width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
+
+}
+
+.control{
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+     border: 5px solid crimson;
+}
+.hr{
+    border: 2px dashed blue;
+}
+.wrapper{
+    display: flex;
+    /* align-items: center; */
+    width: 100%;
+    justify-content: space-between;
+    list-style-type: none;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.box{
+    width: 31%;
+}
+.v{
+    border-left: 6px solid green;
+    height: 500px;
+    position: absolute;
+    left: 34%;
+    
+    top: 0;
+}
+.v2{
+    border-left: 6px solid green;
+    height: 500px;
+    position: absolute;
+    left: 68%;
+    
+    top: 0;
+}
+.item__btn{
+    width: 90px;
+    padding: 8px 8px ;
+    border-radius: 8px;
+    background-color: darkgreen;
+    color: darkturquoise;
+    margin-top: 10px;
+}
+.com-box{
+    border: 2px solid darkcyan;
+}
+.com-btn{
+    width: 90px;
+    padding: 8px 8px ;
+    border-radius: 8px;
+    background-color: darkgreen;
+    color: rgb(209, 0, 192);
+    margin-top: 10px;
+}
+.post-box{
+    border: 2px solid rgb(139, 0, 35);
+}
+.btn:hover{
+    background-color: darkorchid;
+}
